@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+.main {
+    padding: 30px 68px;
+    background-color: rgb(231, 224, 234);
+}
+
+input {
+    font-size: 1.3rem;
+    border-radius: none !important;
+}
+
+.form-check {
+    font-size: 1.4rem;
+    font-family: 'Poppins', sans-serif;
+    padding: 10px;
+    background-color: rgb(163, 235, 236, 0.5);
+}
+
+.options {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+}
+
+.badge {
+    border-radius: 0;
+    color: #fff !important;
+    font-weight: bold !important;
+    font-size: 0.99rem;
+}
+
+.button-main button {
+    border: 1px solid rgb(208, 202, 202);
+    border-radius: 0%;
+    font-size: 1.2rem;
+    margin: 5px 10px;
+}
+
+.button-main {
+    text-align: center;
+}
+
+.page-link {
+    border-radius: 0% !important;
+    font-size: 1.2rem;
+}
+
+
+.button-footer>button {
+    border: 1px solid rgb(208, 202, 202);
+    border-radius: 0%;
+    font-size: 1.2rem;
+    margin: 5px 10px;
+}
+
+.timer {
+    padding: 10px;
+    display: inline-block;
+    color: blue;
+    box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+}
+
+.pageButton {
+    border: none;
+}
+
+.errorMess {
+    text-align: center;
+    color: rgb(222, 42, 42);
+}
+
+.timerPrimery {
+    color: rgb(5, 131, 5);
+}
+
+.timerEnd {
+    color: rgb(222, 42, 42);
+}
+
+.profile {
+    display: flex;
+    justify-content: space-between;
+}
+
+.photoURL {
+    height: 60px;
+    border-radius: 50%;
+}
